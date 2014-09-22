@@ -13,3 +13,6 @@ as second offsets based on the type. If the type is hourly (such as a public eve
 of the hour. If the type is measured in days, the offset is from the stroke of midnight.
 
 All times are UTC.
+
+##License
+MIT
