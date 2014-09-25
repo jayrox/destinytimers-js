@@ -91,12 +91,12 @@
                     {
                         "uniqueId": "moth1",
                         "start": 0,
-                        "end": 60
+                        "end": 300
                     },
                     {
                         "uniqueId": "moth2",
                         "start": 1800,
-                        "end": 1860
+                        "end": 2100
                     }
                 ]
             },
@@ -109,13 +109,13 @@
                 "intervals": [
                     {
                         "uniqueId": "divide1",
-                        "start": 600,
-                        "end": 900
+                        "start": 900,
+                        "end": 1200
                     },
                     {
                         "uniqueId": "divide2",
-                        "start": 2400,
-                        "end": 2700
+                        "start": 2700,
+                        "end": 3000
                     }
                 ]
             },
@@ -137,13 +137,18 @@
                 "name": "Forgotten Shore",
                 "type": 1,
                 "subEvents": [
-                    "Kill Fallen Captain"
+                    "Defeat Extraction Crews"
                 ],
                 "intervals": [
                     {
                         "uniqueId": "shore1",
+                        "start": 300,
+                        "end": 600
+                    },
+                    {
+                        "uniqueId": "shore2",
                         "start": 2100,
-                        "end": 2160
+                        "end": 2400
                     }
                 ]
             },
@@ -190,7 +195,7 @@
                 "name": "Ember Caves",
                 "type": 1,
                 "subEvents": [
-                    "Defeat Devil Walker"
+                    "Defeat Winter Walker"
                 ],
                 "intervals": [
                     {
@@ -201,7 +206,7 @@
                 ]
             },
             {
-                "name": "The Citadel",
+                "name": "Citadel or Ishtar Cliffs",
                 "type": 1,
                 "subEvents": [
                     "Prevent Vex Sacrifices"
@@ -228,22 +233,8 @@
                 "intervals": [
                     {
                         "uniqueId": "archer1",
-                        "start": 0,
-                        "end": 300
-                    }
-                ]
-            },
-            {
-                "name": "Archer's Line",
-                "type": 1,
-                "subEvents": [
-                    "Kill Target"
-                ],
-                "intervals": [
-                    {
-                        "uniqueId": "archer2",
-                        "start": 600,
-                        "end": 900
+                        "start": 2100,
+                        "end": 2400
                     }
                 ]
             },
@@ -256,7 +247,7 @@
                 "intervals": [
                     {
                         "uniqueId": "hellmouth1",
-                        "start": 2100,
+                        "start": 2400,
                         "end": 2700
                     }
                 ]
@@ -279,7 +270,7 @@
                 "name": "Anchor of Light",
                 "type": 1,
                 "subEvents": [
-                    "Destroy the Fallen Walker"
+                    "Destroy the Iron Walker"
                 ],
                 "intervals": [
                     {
@@ -308,8 +299,22 @@
                 "intervals": [
                     {
                         "uniqueId": "hollows1",
-                        "start": 300,
-                        "end": 600
+                        "start": 1800,
+                        "end": 2100
+                    }
+                ]
+            },
+            {
+                "name": "Buried City",
+                "type": 1,
+                "subEvents": [
+                    "Eliminate Axis Minotaur"
+                ],
+                "intervals": [
+                    {
+                        "uniqueId": "buried1",
+                        "start": 2700,
+                        "end": 3000
                     }
                 ]
             },
@@ -323,8 +328,8 @@
                 "intervals": [
                     {
                         "uniqueId": "barrens1",
-                        "start": 300,
-                        "end": 600
+                        "start": 0,
+                        "end": 300
                     },
                     {
                         "uniqueId": "barrens2",
