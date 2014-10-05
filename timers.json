@@ -233,8 +233,13 @@
                 "intervals": [
                     {
                         "uniqueId": "archer1",
-                        "start": 2100,
-                        "end": 2400
+                        "start": 1500,
+                        "end": 1800
+                    },
+                    {
+                        "uniqueId": "archer2",
+                        "start": 2700,
+                        "end": 3000
                     }
                 ]
             },
@@ -242,12 +247,13 @@
                 "name": "Hellmouth",
                 "type": 1,
                 "subEvents": [
-                    "Defeat Extraction Crews"
+                    "Defeat Extraction Crews",
+                    "Defend the Warsat"
                 ],
                 "intervals": [
                     {
                         "uniqueId": "hellmouth1",
-                        "start": 2400,
+                        "start": 2100,
                         "end": 2700
                     }
                 ]
@@ -261,27 +267,8 @@
                 "intervals": [
                     {
                         "uniqueId": "anchorlight1",
-                        "start": 0,
-                        "end": 300
-                    }
-                ]
-            },
-            {
-                "name": "Anchor of Light",
-                "type": 1,
-                "subEvents": [
-                    "Destroy the Iron Walker"
-                ],
-                "intervals": [
-                    {
-                        "uniqueId": "anchorlight2",
-                        "start": 1800,
-                        "end": 2100
-                    },
-                    {
-                        "uniqueId": "anchorlight3",
-                        "start": 2700,
-                        "end": 3000
+                        "start": 1500,
+                        "end": 1800
                     }
                 ]
             }
