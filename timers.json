@@ -54,6 +54,46 @@
                 "arrivalTime": 32400,
                 "departureDay": 0,
                 "departureTime": 32400
+            },
+            {
+                "name": "Vendor Stock Reset",
+                "type": 3,
+                "subEvents": [
+                    "Gunsmith",
+                    "Vanguard"
+                ],
+                "intervals": [
+                    {
+                        "uniqueId": "resetVendor1",
+                        "start": 18000,
+                        "end": 18030
+                    },
+                    {
+                        "uniqueId": "resetVendor2",
+                        "start": 28800,
+                        "end": 28830
+                    },
+                    {
+                        "uniqueId": "resetVendor3",
+                        "start": 39600,
+                        "end": 39630
+                    },
+                    {
+                        "uniqueId": "resetVendor4",
+                        "start": 50400,
+                        "end": 50430
+                    },
+                    {
+                        "uniqueId": "resetVendor5",
+                        "start": 61200,
+                        "end": 61230
+                    },
+                    {
+                        "uniqueId": "resetVendor6",
+                        "start": 82800,
+                        "end": 82830
+                    }
+                ]
             }
         ]
     },
