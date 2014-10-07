@@ -20,7 +20,7 @@
             },
             {
                 "name": "Bounty Stock Refresh",
-                "type": 3,
+                "type": 4,
                 "subEvents": [
                     "New Bounties Available"
                 ],
