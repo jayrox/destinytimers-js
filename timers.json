@@ -90,6 +90,11 @@
                     },
                     {
                         "uniqueId": "resetVendor6",
+                        "start": 72000,
+                        "end": 72030
+                    },
+                    {
+                        "uniqueId": "resetVendor7",
                         "start": 82800,
                         "end": 82830
                     }
