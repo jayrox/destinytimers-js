@@ -17,20 +17,6 @@
                 "arrivalTime": 32400,
                 "departureDay": 2,
                 "departureTime": 32430
-            },
-            {
-                "name": "Bounty Stock Reset",
-                "type": 3,
-                "subEvents": [
-                    "New Bounties Available"
-                ],
-                "intervals": [
-                    {
-                        "uniqueId": "resetBounty1",
-                        "start": 32400,
-                        "end": 32430
-                    }
-                ]
             }
         ]
     },
@@ -54,6 +40,21 @@
                 "arrivalTime": 32400,
                 "departureDay": 0,
                 "departureTime": 32400
+            },
+            ,
+            {
+                "name": "Bounty Stock Reset",
+                "type": 3,
+                "subEvents": [
+                    "New Bounties Available"
+                ],
+                "intervals": [
+                    {
+                        "uniqueId": "resetBounty1",
+                        "start": 32400,
+                        "end": 32430
+                    }
+                ]
             },
             {
                 "name": "Vendor Stock Reset",
