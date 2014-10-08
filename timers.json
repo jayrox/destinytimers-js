@@ -65,36 +65,41 @@
                 "intervals": [
                     {
                         "uniqueId": "resetVendor1",
+                        "start": 7200,
+                        "end": 7230
+                    },
+                    {
+                        "uniqueId": "resetVendor2",
                         "start": 18000,
                         "end": 18030
                     },
                     {
-                        "uniqueId": "resetVendor2",
+                        "uniqueId": "resetVendor3",
                         "start": 28800,
                         "end": 28830
                     },
                     {
-                        "uniqueId": "resetVendor3",
+                        "uniqueId": "resetVendor4",
                         "start": 39600,
                         "end": 39630
                     },
                     {
-                        "uniqueId": "resetVendor4",
+                        "uniqueId": "resetVendor5",
                         "start": 50400,
                         "end": 50430
                     },
                     {
-                        "uniqueId": "resetVendor5",
+                        "uniqueId": "resetVendor6",
                         "start": 61200,
                         "end": 61230
                     },
                     {
-                        "uniqueId": "resetVendor6",
+                        "uniqueId": "resetVendor7",
                         "start": 72000,
                         "end": 72030
                     },
                     {
-                        "uniqueId": "resetVendor7",
+                        "uniqueId": "resetVendor8",
                         "start": 82800,
                         "end": 82830
                     }
